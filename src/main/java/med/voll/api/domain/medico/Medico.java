@@ -52,7 +52,7 @@ public class Medico {
         if (datosActualizarMedico.documento() != null) {
             this.documento = datosActualizarMedico.documento();
         }
-        if (datosActualizarMedico.documento() != null) {
+        if (datosActualizarMedico.direccion() != null) {
             this.direccion = direccion.actualizarDatos(datosActualizarMedico.direccion());
         }
     }
